@@ -1,9 +1,9 @@
 'use strict'
 
-const userModel = require('../models/User')
 const jwt = require('jsonwebtoken')
 const moment = require('moment')
 const crypto = require('crypto')
+const userModel = require('../models/User')
 const tools = require('../config/utils/tools')
 const MailServices = require('../config/utils/mailServices')
 const mailTemplates = require('../config/utils/emailTemplates')
