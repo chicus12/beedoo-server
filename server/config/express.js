@@ -3,10 +3,10 @@
 const bodyParser = require('body-parser')
 const express = require('express')
 const session = require('express-session')
-const config = require('./env')
 const mongoose = require('mongoose')
-
 const passport = require('passport')
+
+const config = require('./env')
 const facebookStatregy = require('./strategies/facebook')
 const googleStatregy = require('./strategies/google')
 const passportConfig = require('./passport')
